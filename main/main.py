@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import asyncio
-import os
 
 prefix = 'YOUR_PREFIX' # Enter a prefix
 client = commands.Bot(command_prefix=prefix, intents=discord.Intents.all())
