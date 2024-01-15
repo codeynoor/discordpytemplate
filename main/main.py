@@ -5,7 +5,7 @@ import asyncio
 prefix = 'YOUR_PREFIX' # Enter a prefix
 client = commands.Bot(command_prefix=prefix, intents=discord.Intents.all())
 
-# Remove the built-in help and ping commands
+# Remove the built-in help and ping commands (Optional)
 client.remove_command('help') 
 client.remove_command('ping')
 
